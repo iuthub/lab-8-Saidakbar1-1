@@ -12,5 +12,18 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('blog');
 });
+Route::get('/post/{id}', function () {
+    return 'Hello World';
+});
+Route::get('/admin/', function () {
+    return 'Hello World';
+});
+Route::get('/admin/create', function () {
+    return 'Hello World';
+});
+Route::get('/admin/edit/{id}', function () {
+    return 'Hello World';
+});
+
